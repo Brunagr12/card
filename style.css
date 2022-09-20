@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
+
+body {
+  background: #342b1d;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+h3 {
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+.linkedin-logo {
+  width: 50px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.github-logo {
+  width: 50px;
+  position: absolute;
+  top: 70px;
+  right: 10px;
+}
+
+.container {
+  margin: 64px;
+  background: #ffc875;
+  color: #342b1d;
+  border-radius: 20px;
+  padding: 64px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  max-width: 190px;
+  border-radius: 460px;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 16px;
+  padding: 8px 16px;
+  background: #fcd9a4;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #342b1d;
+}
+
+.portfolio {
+  margin-top: 64px;
+  display: grid;
+  grid-template-columns: 2fr;
+  gap: 20px;
+}
+
+.projetos {
+  max-height: 1000px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 38px;
+  background: linear-gradient(230.65deg, #fff3e2 27.49%, #ddae67 83.19%);
+  border-radius: 20px;
+  box-shadow: px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.projetos ul {
+  list-style: none;
+  padding-left: 0;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.projetos li {
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 2em;
+}
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+.dark {
+  background: linear-gradient(236.85deg, #46586e 27.26%, #272f38 96.03%);
+}
+
+.dark .portfolio {
+  color: #1c1c1c;
+}
+
+.dark .projetos {
+  background: linear-gradient(236.85deg, #46586e 27.26%, #272f38 96.03%);
+  color: #f6f6f6;
+}
+
+.dark .tema button {
+  color: #ffffff;
+  background: #1c1c1c;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #f7f7f7;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1c1c1c;
+  border: 1.8px solid #1c1c1c;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ecf4ff;
+}
+
+::-webkit-scrollbar-track {
+  background: #ecf4ff;
+  border-radius: 100px;
+  box-shadow: inset 0px 0px 0px 0px #f0f0f0;
+  margin: 15px 0px;
+}
